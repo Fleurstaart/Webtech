@@ -1,6 +1,6 @@
 # Labo 2 - reflecties
 
-Naam: (jouw naam)
+Naam: (fleurette)
 
 ## 2. Selectors lezen
 
