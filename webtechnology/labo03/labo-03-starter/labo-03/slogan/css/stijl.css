@@ -2,7 +2,42 @@
 
 /* === tokens === */
 :root {
+    --orange:#fccc00;
 
 }
 
 /* === your rules === */
+body {
+    padding: 12rem 3rem;
+    font-family: arial;
+    text-align: center;
+    max-width: 40rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+h2 span{
+    border-bottom: 0.5rem solid var(--orange);
+    border-radius: 100%;
+}
+
+p {
+    font-size: 0.70rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+a {
+    font-size: 0.70rem;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #000;
+    color: white;
+    border-radius: 0.7rem;
+    
+}
+

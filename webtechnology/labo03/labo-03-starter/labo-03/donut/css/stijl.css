@@ -2,7 +2,28 @@
 
 /* === tokens === */
 :root {
+    --oranje: #ec4b03;
+    --purple: #b99ec1;
+    --yellow: #f9b700;
 
 }
 
 /* === your rules === */
+main {
+    display: inline-block;
+    width: 90vh;
+    height: 90vh;
+    margin: 0 auto;
+    background-color: var(--oranje);
+    border: solid black 0.75rem;
+
+}
+
+div {
+
+
+}
+
+h1{
+
+}

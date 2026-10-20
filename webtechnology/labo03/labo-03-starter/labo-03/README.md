@@ -1,11 +1,14 @@
 # Labo 3 - reflecties
 
-Naam: (jouw naam)
+Naam: (Fleurette Okuonghae)
 
 ## 1. Kleurenstalen
 
 - Welke twee waarden uit de user agent stylesheet moest je op de lijst wegwerken, en waar las je ze af?
+      ---  de margin and gthe padding ---
 - Wat verandert er aan de banden als je het venster hoger maakt, en wat verandert er niet?
+           --- the font size stays the same wegens using the 'rem', using vh (viewpoint height) for the padding makes it so you can change it width and height on any screen size. ----
+
 
 ## 2. Slogan
 
