@@ -2,7 +2,34 @@
 
 /* === tokens === */
 :root {
-
+    --papier:#f8f7f5;
+    --inkt:#lalala;
+    --gedempt:#6b6b6b;
+    --balk:#000000;
+    --links:#9a9a9a;
 }
 
 /* === your rules === */
+
+body{
+    background-color: var(--papier);
+}
+
+header{
+padding: 3.5rem;
+    display: flex;
+    background-color:var(--balk);
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: var();
+    display: flex;
+    padding: 1rem;
+}
