@@ -1,0 +1,21 @@
+/* stijl.css - labo 6, festival (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+    --papier:#fff8ee;
+    --inkt:#1a1a1a;
+    --gedempt:#6b6b6b;
+    --accent:#d6341c;
+
+}
+
+/* === base: narrow screens first === */
+
+header{
+    display: flex;
+
+}
+
+
+
+/* === media queries: below the base rules === */

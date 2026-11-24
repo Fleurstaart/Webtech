@@ -1,0 +1,72 @@
+/* stijl.css - labo 7, leespagina (reset.css is linked before this file) */
+
+/* === fonts: one @font-face per file in fonts/ (7.2) === */
+
+@font-face {
+    font-family: "Fraunces";
+    src: url("labo07\leespagina\fonts\fraunces-latin-wght-normal.woff2") format("woff2");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Fraunces Italic" ;
+    src: url("labo07\leespagina\fonts\fraunces-latin-wght-italic.woff2")format(woff2);
+    font-weight: 100 900;
+    font-style: italicµ;
+    font-display: swap;
+} 
+@font-face {
+    font-family: "Atkinson Normal 400";
+    src: url("labo07\leespagina\fonts\atkinson-hyperlegible-latin-400-normal.woff2")format(woff2);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Atkinson Normal 700";
+    src: url("labo07\leespagina\fonts\atkinson-hyperlegible-latin-700-normal.woff2")format(woff2);
+     font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Atkinson Italic";
+    src: url("labo07\leespagina\fonts\atkinson-hyperlegible-latin-400-italic.woff2");
+}
+
+/* === tokens: type scale, spacing scale, colour roles (7.4, 7.5, 7.7) === */
+
+root {
+    --vangnetten:Verdana;
+    --vangnetten2:Georgia;
+   --oppervlak:  hsl(40 30% 97%);
+   --inkt: hsl(230 25% 15%);
+   --gedempt: hsl(230 10% 42%);
+   --accent: hsl(15 70% 42%);
+   --lijn: hsl(230 15% 85%);
+
+   /*de schaal, ratio 1.25*/
+--text-s: 0.8rem;
+--text-m: 1rem;
+--text-l:1.25rem;
+--text-xl:1.563rem;
+--text-xxl:1.953rem;
+--text-xxxl:2.441rem;
+/*witruimte*/
+--text-xs:0.25rem;
+--text-s:0.5rem;
+--text-m:1rem;
+--text-l:2rem;
+--text-xl:4rem;
+
+}
+
+
+
+/* === base === */
+
+
+
+
+/* === the article === */

@@ -1,0 +1,95 @@
+/* stijl.css - labo 6, dashboard (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+    --papier:#f3f1ec;
+    --titel:#1f2933;
+    --grafiek:#2c6e8f;
+    --omzet:#c8742e;
+    --bezoekers:#3b7a2a;
+    --agenda:#6b4fa3;
+    --taken:#b2323a;
+    --weer:#e0b43a;
+    --textWeer:#1f2933;
+}
+
+.titel{
+    background-color: var(--titel);
+    line-height: 1.5rem;
+}
+.grafiek{
+    background-color: var(--grafiek);
+
+}
+.omzet{
+    background-color: var(--omzet);
+}
+.bezoekers{
+    background-color: var(--bezoekers);
+
+}
+.agenda{
+    background-color: var(--agenda);
+}
+.taken{
+    background-color: var(--taken);
+}
+.weer{
+    background-color: var(--weer);
+    color: var(--textWeer);
+}
+body{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4rem;
+}
+.dashboard{
+    display: grid;
+    height: 100vh;
+    background-color: var(--papier);
+    padding: 1rem;
+    gap:1rem;
+}
+.tegel{
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+/* === base: narrow screens first === */
+
+/* === media queries: below the base rules === */
+
+@media(min-width: 800px){
+    main{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .titel
+    .grafiek
+    .weer{ grid-column: 3/-1;}
+
+    .omzet
+    .bezoekers
+    .agenda
+    .taken{grid-column: 1/3;
+            grid-row: 2/4;}
+            
+}
+
+@media(min-width: 1200px){
+    main{
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+    .titel{grid-column: 1/5;
+            grid-row: 1/2;}
+    .grafiek{grid-column: 1/3;
+            grid-row: 2/6;}
+    .omzet
+    .agenda
+    .bezoekers
+    .taken{
+        grid-column: 3/5;
+        grid-row: 2/5;}
+    .weer{
+        grid-column: 1/5;
+        grid-row: 6/7;}
+}
